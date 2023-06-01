@@ -164,6 +164,7 @@
                    border-top-left-radius: 5px;
                    border-bottom-left-radius: 5px;
                    overflow:hidden;
+                   
          }
          .username_box span{
                 background-color: #eeeeee;
@@ -201,7 +202,129 @@
          }
 
 
-   }
-   /* end of narrow */
+         .pad_lock {
+                display: flex;
+                gap:1rem;
+                align-items: center;
+                border-top-left-radius: 5px;
+                border-bottom-left-radius: 5px;
+                overflow:hidden;
+          }
 
-    }
+
+          .pad_lock span{
+            background-color: #eeeeee;
+            padding: 0.5rem;
+           }
+
+          .pad_lock input{
+                  border:none;
+                  outline:none;
+                  padding: 0.5rem 0.8rem;
+           }
+
+           .action_row{
+                 display: flex;
+                 justify-content:space-between;
+                 align-items: center;  
+                 margin-top:1rem; 
+                       
+           }
+
+
+           .action_row a{
+            text-decoration:none;
+            color: black;
+            text-transform: uppercase;
+         }
+
+
+           .action_row button{
+              color: white;
+              background-color:#444;
+              outline:none;
+              width:130px;
+              padding:.4rem
+         }
+
+          /* user guide */
+
+          .user_guide_video_wrapper{
+                 margin-top:3rem;
+
+                 .wrapper_title{
+                  background-color: #444;
+                  color:white;
+                  padding:.5rem;
+
+                 }
+                  
+                  .wrapper_body{
+                        display:grid;
+                        gap:1rem;
+                        margin-top: .5rem;
+                        box-shadow: 0px 0px 8px lightgrey;
+                   
+                  }
+                   
+                  
+                  .wrapper_body a{
+                       text-decoration:none;
+                       color:black
+                   
+                  }
+                  
+                  .wrapper_body a:hover{
+                       text-decoration:underline;
+                       
+                   
+                  }
+            }  
+            
+            
+            /* related links */
+            .related_links_wrapper{
+                  margin-top:3rem;
+ 
+                  .wrapper_title{
+                   background-color: #444;
+                   color:white;
+                   padding:.5rem;
+ 
+                  }
+                   
+                   .wrapper_body{
+                         display:grid;
+                         gap:1rem;
+                         margin-top: .5rem;
+                         box-shadow: 0px 0px 8px lightgrey;
+                    
+                   }
+                    
+                   
+                   .wrapper_body a{
+                        text-decoration:none;
+                        color:black
+                    
+                   }
+                   
+                   .wrapper_body a:hover{
+                        text-decoration:underline;
+                        
+                    
+                   }
+             }  
+             
+                  
+  
+           }
+
+      }
+   /* end of narrow */
+      
+  
+
+
+   }
+
+    
