@@ -83,7 +83,7 @@
           display: flex;
           width:80%;
           margin:1rem auto;
-          border:1px solid red;
+          /* border:1px solid red; */
           gap: 2rem;
     }
         
@@ -94,6 +94,9 @@
     .wide_wrapper{
         min-width: 400px;
         flex-grow: 1;
+        padding-right: 1rem;
+        border-right: 1px solid lightgrey;
+
           .photo{
              width: 100% ;
           }
@@ -146,6 +149,8 @@
    .narrow_wrapper{
          min-width: 200px;
          border: 1px blue;
+         display: grid;
+         row-gap:2rem;
 
          .sign_in_wrapper{
                 display: grid;
@@ -169,6 +174,10 @@
          .username_box span{
                 background-color: #eeeeee;
                 padding: 0.5rem;
+                min-width: 10%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
          }
          .username_box input{
                     border:none;
@@ -216,6 +225,10 @@
           .pad_lock span{
             background-color: #eeeeee;
             padding: 0.5rem;
+            min-width: 10%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
            }
 
           .pad_lock input{
@@ -252,7 +265,7 @@
           /* user guide */
 
           .user_guide_video_wrapper{
-                   margin-top: 3rem;
+                   /* margin-top: 3rem; */
                  
 
                  .wrapper_title{
@@ -266,7 +279,9 @@
                         display:grid;
                         gap:1rem;
                         margin-top: .5rem;
-                        box-shadow: 0px 0px 8px lightgrey;    
+                        background-color: #f9f9f9;
+                        box-shadow: 0px 0px 8px lightgrey; 
+                        padding: 1rem;   
                    
                   }
 
@@ -305,7 +320,7 @@
                          gap:1rem;
                          margin-top: .5rem;
                          box-shadow: 0px 0px 8px lightgrey;
-                    
+                         padding: 1rem;  
                    }
                     
                    
