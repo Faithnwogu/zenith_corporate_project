@@ -2,7 +2,7 @@
 @media only screen and (min-width:768px){
 
         body{
-             font-family:"system ui";
+             font-family:"system-ui";
              color:#444;
              font-size:14px;
              margin:0;
@@ -160,7 +160,7 @@
 
          .username_box {
                    display: flex;   
-                   /* border: 5px solid grey;   */
+                   border:1px solid grey; 
                    border-top-left-radius: 5px;
                    border-bottom-left-radius: 5px;
                    overflow:hidden;
@@ -209,6 +209,7 @@
                 border-top-left-radius: 5px;
                 border-bottom-left-radius: 5px;
                 overflow:hidden;
+                border:1px solid grey; 
           }
 
 
@@ -228,6 +229,7 @@
                  justify-content:space-between;
                  align-items: center;  
                  margin-top:1rem; 
+                 
                        
            }
 
@@ -250,7 +252,8 @@
           /* user guide */
 
           .user_guide_video_wrapper{
-                 margin-top:3rem;
+                   margin-top: 3rem;
+                 
 
                  .wrapper_title{
                   background-color: #444;
@@ -263,9 +266,13 @@
                         display:grid;
                         gap:1rem;
                         margin-top: .5rem;
-                        box-shadow: 0px 0px 8px lightgrey;
+                        box-shadow: 0px 0px 8px lightgrey;    
                    
                   }
+
+                  .wrapper_body img{
+                        width:100%
+                   }
                    
                   
                   .wrapper_body a{
