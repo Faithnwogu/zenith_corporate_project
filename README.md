@@ -7,4 +7,12 @@
 -date: 1st june 2023
 
 ![](./img/zenith-bank-project/laptop_view_top.png)
-![](./img/zenith-bank-project/laptop_view_bottom.png)
+![](./img/laptop_view_bottom.png)
+
+
+**completed UI (optimized for <768px)**
+
+![](./img/zenith-bank-project/mobile_view.png)
+![](./img/zenith-bank-project/mobile_view_2.png)
+![](./img/zenith-bank-project/mobile_view_3.png)
+![](./img/zenith-bank-project/mobile_view_4.png)
